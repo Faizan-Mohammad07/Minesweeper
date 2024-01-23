@@ -33,3 +33,20 @@ td {
   text-align: center;
   background-color: blueviolet;
 }
+.table {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.notif-bar {
+  margin: 0 40px;
+  width: fit-content;
+  display: inline-table;
+}
+.info-bar {
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  align-items: center;
+  display: flex;
+}

@@ -132,3 +132,5 @@ function resetGame() {
 }
 
 resetGame();
+var div = document.getElementById("reset-game");
+div.addEventListener("click", resetGame);
