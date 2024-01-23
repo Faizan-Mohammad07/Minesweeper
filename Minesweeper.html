@@ -9,11 +9,17 @@
   </head>
   <body>
     <section>
-      <h1>Minesweeper</h1>
-      <div>
-        <table id="grid"></table>
+      <h1 class="mine-heading">Minesweeper</h1>
+      <div class="info-bar">
+        <div class="upper-bar">Time: <span class="time" id="time">0</span></div>
+        <div class="notif-bar" id="reset-game">
+          <div class="upper-bar">reset</div>
+        </div>
       </div>
-      <script src="Minesweeper.js"></script>
+      <div class="table">
+        <table id="grid" class="mine-table"></table>
+      </div>
+      <script src="experiment.js"></script>
     </section>
   </body>
 </html>
