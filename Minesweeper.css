@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css2?family=Comfortaa&family=Literata);
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Comfortaa;
+  user-select: none;
+}
+body {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background: url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?w=826&t=st=1705575660~exp=1705576260~hmac=496f7e8e0c376d25671be61f742f08aabda17e551acc9cfe4a43fbbaf725a35c);
+  background-size: cover;
+  background-position: center;
+}
+.mine-heading {
+  padding: 20px 0 5px 0;
+  position: relative;
+  text-align: center;
+  background: rgba(0, 255, 191, 0.055);
+  backdrop-filter: blur(15px);
+}
+table {
+  border-collapse: collapse;
+  color: rgba(0, 70, 108, 0.907);
+  font-weight: 600;
+  font-family: Ubuntu, Cantarell;
+}
+
+td {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  background-color: blueviolet;
+}
