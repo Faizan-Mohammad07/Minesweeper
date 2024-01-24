@@ -26,12 +26,18 @@ table {
   font-weight: 600;
   font-family: Ubuntu, Cantarell;
 }
-
+td:hover {
+  background: rgba(31, 255, 199, 0.595);
+  transition: 0.2s;
+}
 td {
-  width: 25px;
-  height: 25px;
+  width: 50px;
+  height: 50px;
   text-align: center;
-  background-color: blueviolet;
+  border: 2px solid rgba(255, 255, 255, 0);
+  background: rgba(31, 255, 199, 0.336);
+  border-radius: 4px;
+  backdrop-filter: blur(15px);
 }
 .table {
   align-items: center;
@@ -49,4 +55,18 @@ td {
   margin-bottom: 20px;
   align-items: center;
   display: flex;
+}
+.upper-bar {
+  padding: 10px 10px;
+  border-radius: 10px;
+  display: inline-flex;
+  background-size: 5px;
+  background: rgba(255, 255, 255, 0.297);
+  backdrop-filter: blur(15px);
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.347);
+  width: 120px;
+  height: 25px;
+  font-weight: 600;
 }
