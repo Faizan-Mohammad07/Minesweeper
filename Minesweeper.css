@@ -70,3 +70,13 @@ td {
   height: 25px;
   font-weight: 600;
 }
+img {
+  height: 24px;
+  width: 24px;
+}
+.nav-icon {
+  height: 24px;
+  width: 24px;
+  opacity: 75%;
+  margin-right: 5px;
+}
